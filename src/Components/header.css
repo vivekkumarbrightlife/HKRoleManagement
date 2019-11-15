@@ -1,7 +1,6 @@
 .app-header .navigation-container {
 	position: relative;
 	height: 64px;
-	background-color: #009be5;
     width: calc(100% - 256px);
     margin-left: 256px;
 }
@@ -23,7 +22,8 @@
 }
 
 .app-header nav {
-	position: fixed;
+    position: fixed;
+	background-color: #009be5;    
 	height: 64px;
 	z-index: 999;
 	left: 256px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './Components/Header';
 import './App.css';
 import  './common.css';
 
@@ -7,8 +7,6 @@ import  './common.css';
 function App() {
   return (
     <div className="App">
-    {/* <User/> */}
-  
       <Header />
     </div>
   );

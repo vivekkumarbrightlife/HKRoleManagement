@@ -42,11 +42,18 @@ render() {
             </div>
             <main className="main-content">
                     <Router>
-                        <Switch>
-                            <Route path="/dashbord" render={(props) => {return <Dashboard />}}/>
-                        </Switch>
+                        <div>
+                            <Switch>
+                                <Route exact path="/dashboard" >
+                                    <Dashboard />
+                                </ Route>
+                                <Route>
+                                    Random Route
+                                </Route>
+                            </Switch>
+                        </div>
                     </Router>
-                    <h1>akjfaklsdjfnaklnflkndfaslkfndsklaflksdanlfnas</h1>
+                    {/* <h1>akjfaklsdjfnaklnflkndfaslkfndsklaflksdanlfnas</h1> */}
                 </main>
         </div>
 

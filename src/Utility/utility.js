@@ -1,4 +1,5 @@
 import axios from 'axios';
+import config from './Config';
 
 var HKRole= {
     ajaxCall: function(args) {
@@ -14,7 +15,7 @@ var HKRole= {
 		}
 
 		if(method === "get") {
-			return axios.get(URL, {headers:header},{withCredentials:true}, {timeout: timeout}).then(res=>{
+			return axios.get(URL,{withCredentials:true}, {timeout: timeout}).then(res=>{
 					return new Promise(function(resolve, reject) {
 						resolve(res);
 					});
@@ -45,5 +46,8 @@ var HKRole= {
 		userStatus = userStatus !== 'false' ? userStatus : false;
 
 		return userStatus;
-	},
+    },
+    config
 }
+
+export default HKRole;
