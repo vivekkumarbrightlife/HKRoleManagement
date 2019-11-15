@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './header.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Dashboard from './Dashboard/dashboard';
+import Login from '../common/Login/Login';
 
 
 class Header extends Component {
@@ -42,8 +43,9 @@ render() {
             </div>
             <main className="main-content">
                     <Router>
-                        <div>
+                        <div style={{textAlign: 'center'}}>
                             <Switch>
+                                <Route exact path="/" component={Login} />
                                 <Route exact path="/dashboard" >
                                     <Dashboard />
                                 </ Route>
