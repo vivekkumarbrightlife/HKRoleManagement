@@ -11,6 +11,125 @@
     padding: 30px 0;
     height: 100vh
 } */
+.main-div{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.width100{
+    width: 100%;
+    display: inline-block;
+}
+.main-div .superuser-bg{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.main-div .superuser-bg .list-row {
+   width: 70%;
+    display: inline-block;
+   
+}
+.main-div .superuser-bg .list-row .listing-card {
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 10px 0;
+    border: 1px solid #c0bebe;
+    /* background: #ddd; */
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    box-shadow: 1px 1px 4px #cccaca;
+}
+.submit-data.width100 {
+    float: right;
+    text-align: right;
+}
+.submit-data.width100 .input-submit {
+    background: #83c7e7;
+    font-weight: bold;
+    width: 230px;
+    margin: 20px 35px 20px;
+    height: 45px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.blue-active-btn{
+background: #009be5;
+}
+.main-div .superuser-bg .list-row .listing-card .stack-row {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px 0 0 0;
+}
+.main-div .superuser-bg .list-row .listing-card .stack-row span.label-text {
+    width: 95px;
+    display: inline-block;
+}
+
+  input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+    line-height: 28px;
+  }
+  
+  .Newcheckbox input[type=checkbox] {
+    display: none;
+  }
+  
+  .Newcheckbox input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #83c7e7;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right:8px;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+    background: #fff;
+    line-height: 20px;
+  }
+  span.Newcheckbox{
+      display: inline-block;
+      margin: 0 8px 0 0;
+  }
+  
+  .Newcheckbox input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  .Newcheckbox input[type=checkbox]:checked + label:before {
+    background-color: #009be5;
+    border-color: #009be5;
+    color: #fff;
+  }
+  
+  /* input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  } */
+
+
+
 .block-div {
     display: inline-block;
     width: 70%;
@@ -21,7 +140,7 @@
     margin: 0px;
 }
 .form-bg{
-    background-color:#efefef;
+    /* background-color:#efefef; */
     width: 60%;
     max-width: 600px;
     /* height: 500px; */
@@ -30,6 +149,8 @@
     display: inline-block;
     padding: 30px 0;
     box-sizing: border-box;
+    border: 1px solid #c0bebe;
+    box-shadow: 1px 1px 4px #cccaca;
 }
 .form-bg .input-row{
     display: inline-block;
@@ -66,13 +187,16 @@
     border-radius: 5px;
     outline: none;
     border: none;
-    background: #EE9BA3;
+    background:#a6abb1;
     color: white;
     font-size: 14px;
 }
 .form-bg .input-row .btn:hover{
     cursor: pointer;
-    background: #ed5664;
+    background: #6d747c;
+}
+.black-btn-active{
+background: #626d7a;
 }
 .active-btn{
     background: #ed5664;

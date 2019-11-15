@@ -3,6 +3,7 @@ import User from '../User';
 import SuperUser from '../SuperUser';
 import HK from '../../Utility/utility';
 
+import  '../../common.css';
 
 class Dashboard extends Component {
     constructor(props) {
@@ -37,7 +38,7 @@ class Dashboard extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="main-div">
                 <h1>User Name</h1>
                 {
                     this.state.applicationData &&
