@@ -1,15 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import './App.css';
 import  './common.css';
-import SelectList from './common/Select';
-import User from './components/User';
-import SuperUser from './components/SuperUser';
 
 
 function App() {
   return (
     <div className="App">
     {/* <User/> */}
-    <SuperUser/>
+  
+      <Header />
     </div>
   );
 }
