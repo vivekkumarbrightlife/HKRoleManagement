@@ -17,14 +17,14 @@ const useStyles = makeStyles(theme => ({
 
 export default function UncontrolledTextField(props) {
   const classes = useStyles();
-  
+
     return (
         <TextField
           id="outlined-password-input"
-          label="Password"
+          label={props.label ? props.label:'Input'}
           className={classes.textField + ' ' + props.class ? props.class : ''}
-          type="password"
-          autoComplete="current-password"
+          // type="password"
+          // autoComplete="current-password"
           margin="normal"
           variant="outlined"
         />
