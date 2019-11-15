@@ -3,6 +3,8 @@ import  '../common.css';
 import Inputfiled from '../common/Input';
 import SelectList from '../common/Select';
 import CommonButtons from '../common/Button'
+import SuperListing from './SuperListing';
+
 class SuperUser extends Component {
   constructor(props) {
     super(props);
@@ -12,8 +14,8 @@ class SuperUser extends Component {
   }
 render() {
     return (
-     <div className="white-background form-bg">
-         
+     <div className="superuser-bg">
+         <SuperListing/>
      </div>
     );
   }

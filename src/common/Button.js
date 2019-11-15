@@ -10,7 +10,7 @@ class CommonButtons extends Component {
   }
 render() {
     return ( 
-        <button class="btn">Sign Up</button>
+        <button class="btn">Submit</button>
     );
   }
 }

@@ -43,10 +43,9 @@ render() {
             <main className="main-content">
                     <Router>
                         <Switch>
-                            <Route path="/dashbord" render={(props) => {return <Dashboard />}}/>
+                            <Route path="/Dashboard" render={(props) => {return <Dashboard />}}/>
                         </Switch>
-                    </Router>
-                    <h1>akjfaklsdjfnaklnflkndfaslkfndsklaflksdanlfnas</h1>
+                    </Router>                   
                 </main>
         </div>
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import User from '../User';
 import SuperUser from '../SuperUser';
-
+import  '../../common.css';
 
 class Dashboard extends Component {
   constructor(props) {
@@ -12,8 +12,8 @@ class Dashboard extends Component {
   }
 render() {
     return (
-        <div>
-            <User/>
+        <div className="main-div">
+            {/* <User/> */}
             <SuperUser/>
         </div>
     );
