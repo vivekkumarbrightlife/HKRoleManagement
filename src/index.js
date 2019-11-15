@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import Checkbox from '@material-ui/core/Checkbox';
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+// import Checkbox from '@material-ui/core/Checkbox';
+// import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

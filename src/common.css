@@ -3,6 +3,14 @@
     float:left;
     text-align: center;
 }
+.App{
+    background: #ddd;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 30px 0;
+    height: 100vh
+}
 .block-div {
     display: inline-block;
     width: 70%;
@@ -12,3 +20,57 @@
     width: 100%;
     margin: 0px;
 }
+.form-bg{
+    background-color:#efefef;
+    width: 60%;
+    max-width: 600px;
+    /* height: 500px; */
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.input-row{
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.input-field, select{
+    font-weight: bold;
+    width: 70%;
+    height: 42px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #F6F7F9;
+    color: #748194;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    margin: 0 0 15px 0;
+   
+}
+
+.input-row .btn{
+    font-weight: bold;
+    width: 230px;
+    margin: 20px 35px 20px;
+    height: 45px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #EE9BA3;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
