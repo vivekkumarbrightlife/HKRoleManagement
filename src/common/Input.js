@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import  '../common.css';
 
 class Inputfiled extends Component {
   constructor(props) {
@@ -9,16 +9,8 @@ class Inputfiled extends Component {
     }
   }
 render() {
-    return (
-        <TextField
-          id="outlined-password-input"
-          label={props.label ? props.label:'Input'}
-          className={classes.textField + ' ' + props.class ? props.class : ''}
-          // type="password"
-          // autoComplete="current-password"
-          margin="normal"
-          variant="outlined"
-        />
+    return ( 
+        <input type="text" className="input-field" placeholder={this.props.placeholder ? this.props.placeholder : ""} name=""/>
     );
   }
 }

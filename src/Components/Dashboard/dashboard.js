@@ -10,7 +10,9 @@ class Dashboard extends Component {
   }
 render() {
     return (
-        <h1>Dashboard</h1>
+        <div>
+            <User/>
+        </div>
     );
   }
 }
