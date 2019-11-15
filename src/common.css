@@ -1,0 +1,14 @@
+.UserRequestForm{
+    width: 100%;
+    float:left;
+    text-align: center;
+}
+.block-div {
+    display: inline-block;
+    width: 70%;
+    margin: 0 0 20px 0;
+}
+.UserRequestForm .block-div .MuiFormControl-root{
+    width: 100%;
+    margin: 0px;
+}

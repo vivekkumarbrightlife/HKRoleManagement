@@ -15,9 +15,10 @@ import MailIcon from '@material-ui/icons/Mail';
 import Badge from '@material-ui/core/Badge';
 import IconButton from '@material-ui/core/IconButton';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import AccountCircle from '@material-ui/icons/AccountCircle';
+// import AccountCircle from '@material-ui/icons/AccountCircle';
 import { useTheme } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import UserRequest from './formComponent/UserRequest';
 
 const drawerWidth = 256;
 let primaryText;
@@ -108,7 +109,7 @@ function SideMenu() {
                     // onClick={handleProfileMenuOpen}
                     color="inherit"
                 >
-                    <AccountCircle />
+                    {/* <AccountCircle /> */}
                 </IconButton>
             </div>
         </Toolbar>
@@ -154,6 +155,8 @@ function SideMenu() {
                 </Switch>
             </Router>
         </div>    
+        <div className={classes.toolbar} />
+        <UserRequest/>
       </main>
     </div>
   );
